@@ -1,0 +1,13 @@
+export default {
+  title: '{{titleCase name}}',
+  name: '{{camelCase name}}',
+  type: 'document',
+  fields: [
+    {
+      title: 'Title',
+      name: 'title',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    },
+  ],
+};
