@@ -36,15 +36,11 @@ export default {
       type: 'figure',
     },
     {
-      title: 'Talks',
-      name: 'talks',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{ type: 'talk' }],
-        },
-      ],
+      title: 'Contributor',
+      description:
+        'Is this person an organizer, volunteer or contributor to ReactVancouver?',
+      name: 'isContributor',
+      type: 'boolean',
     },
   ],
   preview: {
@@ -55,9 +51,15 @@ export default {
       company: 'company',
       media: 'avatar',
     },
-    prepare: ({ firstName, lastName, title, company, media }) => ({
-      title: `${firstName || '[first name]'} ${lastName || '[last name]'}`,
-      subtitle: `${title || '[title]'} @ ${company || '[company]'}`,
+    prepare: ({
+      firstName = '[first name]',
+      lastName = '[last name]',
+      title = '[title]',
+      company = '[company]',
+      media,
+    }) => ({
+      title: `${firstName} ${lastName}`,
+      subtitle: `${title} @ ${company}`,
       media,
     }),
   },

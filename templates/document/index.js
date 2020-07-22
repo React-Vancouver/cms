@@ -17,7 +17,7 @@ module.exports = {
       type: 'append',
       path: 'schemas/schema.js',
       pattern: `/* PLOP_INJECT_DOCUMENT_IMPORT */`,
-      template: `import {{camelCase name}} from './documents/{{camelCase name}}';`,
+      template: `import {{camelCase name}} from './documents/{{dashCase name}}';`,
     },
     {
       type: 'append',

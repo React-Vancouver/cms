@@ -3,7 +3,7 @@ import FaCompass from 'react-icons/lib/fa/compass';
 import FaInfo from 'react-icons/lib/fa/info';
 
 const hiddenDocuments = (document) =>
-  !['navigation', 'aside', 'seo'].includes(document.getId());
+  !['navigation', 'aside', 'seo', 'aboutUs'].includes(document.getId());
 
 export default () =>
   S.list()
@@ -20,6 +20,11 @@ export default () =>
       S.listItem()
         .title('SEO')
         .child(S.document().schemaType('seo').documentId('seo'))
+        .icon(FaInfo),
+      S.divider(),
+      S.listItem()
+        .title('About US')
+        .child(S.document().schemaType('aboutUs').documentId('aboutUs'))
         .icon(FaInfo),
       S.divider(),
       ...S.documentTypeListItems().filter(hiddenDocuments),
