@@ -3,6 +3,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 
 // DOCUMENTS ===================================================================
 /* PLOP_INJECT_DOCUMENT_IMPORT */
+import aboutUs from './documents/about-us';
 import talk from './documents/talk';
 import person from './documents/person';
 import navigation from './documents/navigation';
@@ -25,6 +26,7 @@ export default createSchema({
   name: 'website',
   types: schemaTypes.concat([
     /* PLOP_INJECT_DOCUMENT */
+    aboutUs,
     talk,
     navigation,
     aside,
