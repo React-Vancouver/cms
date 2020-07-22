@@ -39,5 +39,8 @@ export default {
         annotations: [],
       },
     },
+    {
+      type: 'figure',
+    },
   ],
 };
