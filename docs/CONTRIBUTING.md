@@ -31,22 +31,16 @@ cd cms/
 yarn
 ```
 
-#### 2. Create environment files
-
-Add `.env.production` and `.env.development` file with your own keys.
-
-```bash
-$ mv .env.sample .env.production
-$ mv .env.sample .env.development
-```
-
-Ask core maintainers for the keys 🔑.
-
-#### 3. Start Sanity Studio Server
+#### 2. Start Sanity Content Studio Server
 
 ```bash
 yarn start
 ```
+
+Go to http://localhost:3333 to access the Content Studio
+
+#### 3. Access content
+If you need edit access to the content, ask one of the core maintainers to add you to Sanity.
 
 ---
 

@@ -1,6 +1,19 @@
-# Mac files
-.DS_Store
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+.pnp/
+.pnp.js
 
 # Dependency directories
-/node_modules
-node_modules
+node_modules/
+jspm_packages/
+
+# Build files
+dist/
+
+# Mac files
+.DS_Store
