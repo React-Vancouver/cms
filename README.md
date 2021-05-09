@@ -1,24 +1,43 @@
-# Sanity CMS Backend
+# React Vancouver | CMS Backend
+
+### What is ReactVancouver?
+
+ReactVancouver is a monthly gathering of front end engineers and designers of all levels, from boot camp grads to super senior. Every month, we provide 2~3 short educational and informative talks about React and social time with other developers, recruiters, and tech enthusiasts.
+
+If you’re a developer who wants to learn more about React or looking for a job, a recruiter who wants to find talent, or an entrepreneur who wishes to connect with new people—You’re in the right place.
+
+Live website is at [reactvancouver.com](https://reactvancouver.com/). ⚠ This project is currently under development. ⚠
 
 ---
 
-## Work in progress
+### How to contribute?
 
-We're using Github Projects to keep track of issues in progress and todo's. Here is our
-[Board](https://github.com/orgs/React-Vancouver/projects)
+Running this event every month would not be possible without our generous sponsors, speakers, and volunteers. We welcome any collaborations. For any inquiries please contact us at admin@reactvancouver.com.
 
-People actively working on this project: @AkimaLunar.
+#### 💻 Code
 
-## Contribute
+You can contribute to the project by helping us maintain and improve our website. Our stack is:
 
-Our commitment to Open Source can be found [here](https://github.com/React-Vancouver/cms).
+- [Gatsby](https://www.gatsbyjs.com/docs/)
+- [Sanity CMS](https://www.sanity.io/docs/getting-started)
+- [Emotion](https://emotion.sh/docs/introduction)
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device.
-2. Create a new branch `git checkout -b MY_BRANCH_NAME`
-3. Install yarn: `npm install -g yarn`
-4. Install the dependencies: `yarn`
-5. Duplicate `.env.template` and rename it to `.env.local`.
-6. Add proper store values to `.env.local`.
-7. Run `yarn dev` to build and watch for code changes
-8. The development branch is `develop` (this is the branch pull requests should be made against).
-   On a release, `develop` branch is rebased into `production`.
+Please, help us improve the code quality, accessibility and content! You can find the list of the current needs in the [Issues](https://github.com/React-Vancouver/cms/issues) _*or*_ be proactive and find something to fix.
+
+See [`CONTRIBUTING.md`](/docs/CONTRIBUTING.md) for more information on how to gets started with this repository.
+
+#### 🎫 Ops
+
+Running events every month is a lot of work, and if you have time to help out, please reach out. Here are some of the things you could be helping with:
+
+- At event operations
+- Manning the lounge, fireside chats, and promo booths
+- Copywriting
+- Photo / video editing
+
+_*Have other ideas? We are open to suggestions!*_
+
+#### 💰 Sponsor
+
+Want to share job opportunities at your awesome company? Or show off a dev tool you’ve been working on? Get involved with the community of frontend engineers of all levels. We are always looking for collaborations.
