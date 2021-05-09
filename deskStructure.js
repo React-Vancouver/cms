@@ -1,6 +1,6 @@
 import S from '@sanity/desk-tool/structure-builder';
-import FaCompass from 'react-icons/lib/fa/compass';
-import FaInfo from 'react-icons/lib/fa/info';
+import { FaCompass, FaInfo } from 'react-icons/fa';
+
 
 const hiddenDocuments = (document) =>
   !['navigation', 'aside', 'seo', 'aboutUs'].includes(document.getId());
